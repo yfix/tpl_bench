@@ -1,0 +1,60 @@
+a:4:{s:6:"blocks";a:9:{s:10:"__global__";s:976:"<table width=800>
+<tr><td width=200>
+<table bgcolor=#000000 cellspacing=2 cellpadding=4 border=0 width=100%>
+<tr><td bgcolor=#ffffff><h1>BlitzExample</h1></td></tr>
+</table>
+</td>
+{__adverts__}
+</td>
+</tr>
+<tr valign=top>
+<td width=200>
+<table width=100% cellpadding=3>
+{__sections__}
+</table>
+<p><b>Users</b>: {num_total}<br>
+<b>Online</b>: {num_online}<br>
+<small>
+<i>
+{__users__}
+</i>
+</small>
+</small>
+<p><b>{poll_title}</b><br>
+<small>
+{poll_question}
+<small><br>
+<form method=post>
+<table>
+{__poll_answers__}
+<tr><td align=center><input type=submit name="OK" value="{poll_button}"></td></tr>
+</table>
+</form>
+</td>
+<td width=400 colspan=3>
+{__news__}
+</td>
+</tr>
+<tr>
+<td colspan=4 align=center>
+<hr>
+<small>
+<i>BlitzExample (Copyleft) Alexey A. Rybak, 2005.<br>
+Texts are taken from IMDB.com, Memorable Quotes from "The Big Lebowski" (Ethan & Joel Coen, 1998). <br>
+You are welcome to send any suggestions or comments to <b>raa@phpclub.net</b> </i>
+</td>
+</tr>
+</table>";s:7:"adverts";s:243:"<td width=200 valign=top>
+<table bgcolor=#000000 cellspacing=2 cellpadding=2 border=0 width=100%>
+<tr><td><font color=#ffffff><b>{title}</b></font></td></tr>
+<tr><td bgcolor=#ffffff><small><a href="{url}">{body}</a></small>
+</td></tr>
+</table>";s:8:"sections";s:127:"<tr>
+<td bgcolor={__odd__}{__even__}>
+<font color=#ffffff><b>
+<a href="/section.phtml?id={id}">{name}</a>
+{__rip__}
+</td>
+</tr>";s:3:"odd";s:7:"#eeeeee";s:4:"even";s:7:"#dddddd";s:3:"rip";s:40:"<font color=#999999>R.I.P.</font></font>";s:5:"users";s:40:"<a href="/user.phtml?id={id}">{name}</a>";s:12:"poll_answers";s:76:"<tr valign=center><td><small><input type=radio name=a>{answer}<br></td></tr>";s:4:"news";s:106:"<b>{time} {title}</b><br>
+<small>{short}<a href="/news.phtml?id={id}">[ read full story ]</a></small>
+<br>";}s:9:"variables";a:9:{s:10:"__global__";a:10:{s:11:"__adverts__";b:1;s:12:"__sections__";b:1;s:9:"num_total";b:1;s:10:"num_online";b:1;s:9:"__users__";b:1;s:10:"poll_title";b:1;s:13:"poll_question";b:1;s:16:"__poll_answers__";b:1;s:11:"poll_button";b:1;s:8:"__news__";b:1;}s:7:"adverts";a:3:{s:5:"title";b:1;s:3:"url";b:1;s:4:"body";b:1;}s:8:"sections";a:5:{s:7:"__odd__";b:1;s:8:"__even__";b:1;s:2:"id";b:1;s:4:"name";b:1;s:7:"__rip__";b:1;}s:3:"odd";a:0:{}s:4:"even";a:0:{}s:3:"rip";a:0:{}s:5:"users";a:2:{s:2:"id";b:1;s:4:"name";b:1;}s:12:"poll_answers";a:1:{s:6:"answer";b:1;}s:4:"news";a:4:{s:4:"time";b:1;s:5:"title";b:1;s:5:"short";b:1;s:2:"id";b:1;}}s:8:"children";a:9:{s:10:"__global__";a:5:{s:7:"adverts";b:1;s:8:"sections";b:1;s:5:"users";b:1;s:12:"poll_answers";b:1;s:4:"news";b:1;}s:7:"adverts";a:0:{}s:8:"sections";a:3:{s:3:"odd";b:1;s:4:"even";b:1;s:3:"rip";b:1;}s:3:"odd";a:0:{}s:4:"even";a:0:{}s:3:"rip";a:0:{}s:5:"users";a:0:{}s:12:"poll_answers";a:0:{}s:4:"news";a:0:{}}s:9:"functions";a:9:{s:10:"__global__";a:0:{}s:7:"adverts";a:0:{}s:8:"sections";a:0:{}s:3:"odd";a:0:{}s:4:"even";a:0:{}s:3:"rip";a:0:{}s:5:"users";a:0:{}s:12:"poll_answers";a:0:{}s:4:"news";a:0:{}}}
