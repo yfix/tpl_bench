@@ -2,6 +2,8 @@
 
 include('../data.inc'); 
 
+$GLOBALS['PROJECT_CONF']['main']['USE_SYSTEM_CACHE'] = 1;
+#$GLOBALS['PROJECT_CONF']['main']['OUTPUT_CACHING`'] = 1;
 if (!defined('YF_PATH')) {
 	define('YF_PATH', '/home/www/yf/');
 	require YF_PATH.'classes/yf_main.class.php';
@@ -22,4 +24,6 @@ $replace['sections'] = $_SECTIONS;
 $replace['users'] = $_STAT['ONLINE'];
 $replace['news'] = $_NEWS;
 $replace['poll_answers'] = $_POLL['ANSWERS'];
-echo tpl()->parse_string(file_get_contents('main.stpl'), $replace);
+
+tpl()->COMPILE_TEMPLATES = true;
+echo tpl()->parse_string(file_get_contents('main.stpl'), $replace, 'lebovski');
