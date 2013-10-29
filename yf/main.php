@@ -22,5 +22,4 @@ $replace['sections'] = $_SECTIONS;
 $replace['users'] = $_STAT['ONLINE'];
 $replace['news'] = $_NEWS;
 $replace['poll_answers'] = $_POLL['ANSWERS'];
-#echo '<pre>'.print_r($replace,1).'</pre>';
 echo tpl()->parse_string(file_get_contents('main.stpl'), $replace);
